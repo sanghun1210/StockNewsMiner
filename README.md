@@ -17,7 +17,11 @@ print_news_content(tag_lst, selector, file_name)
 tag_lst: 내용을 추출할 웹 페이지의 링크 리스트입니다.
 selector: 웹 페이지에서 내용을 추출할 CSS 선택자입니다.
 file_name: 추출된 내용을 저장할 파일의 이름입니다. 날짜 정보를 포함하여 파일 이름이 동적으로 생성됩니다.
+
+```python
 get_news_tag_list_from_naver(base_url, url)
+```
+
 이 함수는 네이버 주식 섹션의 특정 카테고리 페이지에서 기사 링크를 수집합니다. BeautifulSoup를 사용하여 HTML을 파싱하고, 필요한 링크를 찾아 리스트로 반환합니다.
 
 base_url: 네이버 주식 섹션의 기본 URL입니다.
